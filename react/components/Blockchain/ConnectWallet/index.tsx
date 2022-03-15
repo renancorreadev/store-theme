@@ -7,7 +7,7 @@ import { SiQuantconnect } from 'react-icons/si'
 import { useCssHandles } from 'vtex.css-handles'
 import './styles.css'
 
-const CSS_HANDLES = ['root', 'heading']
+const CSS_HANDLES = ['signInButton']
 
 export function ConnectWallet() {
   const [eagerConnect] = useState(false)
@@ -22,7 +22,7 @@ export function ConnectWallet() {
         className={`${handles.signInButton}`}
         onClick={() => (connected ? deactivate() : setOpen(true))}
       >
-        <SiQuantconnect />
+        <SiQuantconnect style={{ marginRight: '10px' }} />
         {connected ? 'Disconnect' : 'Connect'}
       </button>
     </div>

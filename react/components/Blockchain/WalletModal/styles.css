@@ -15,15 +15,17 @@
 }
 .noGrid {
   margin-top: 10px;
-  max-width: 300px;
-  
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .grid {
   margin-top: 10px;
   max-width: 300px;
   grid-template-columns: 1fr 1fr;
   display: grid;
-  gap:5px;
+  gap: 5px;
 }
 .divider {
   height: 1px;
@@ -32,7 +34,8 @@
 }
 .root {
   color: rgba(0, 0, 0, 0.8);
-  width: 300px;
+  width: 860px;
+  height: 282px;
 }
 
 .learnText {
@@ -70,15 +73,17 @@
   border-radius: 15px;
   cursor: pointer;
 }
-.gridWalletBtn{
+.gridWalletBtn {
   display: flex;
   flex-flow: column;
-  gap:10px;
+  gap: 10px;
   align-items: center;
   padding: 8px 10px !important;
 }
-.gridText{
-  font-size: 15px;
+.gridText {
+  font-size: 16px;
+  font-weight: bold;
+  color: cornsilk;
 }
 .walletBtn:hover {
   background: rgba(239, 244, 245, 0.5);
@@ -96,4 +101,9 @@
 
 .darkWalletBtn:hover {
   background: rgba(0, 0, 0, 0.6);
+}
+
+.iconImages {
+  margin-left: 1px;
+  width: 80px;
 }

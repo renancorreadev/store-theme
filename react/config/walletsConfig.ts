@@ -40,7 +40,7 @@ const wallets = [
     connector: Connectors.INJECTED,
   },
   {
-    title: 'SafePal Wallet',
+    title: 'SafePal',
     image: SafePalIco,
     connector: Connectors.INJECTED,
   },

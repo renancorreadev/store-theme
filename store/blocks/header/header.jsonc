@@ -72,6 +72,7 @@
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
+      "custom-wallet",
       "login",
       "minicart.v2"
     ]

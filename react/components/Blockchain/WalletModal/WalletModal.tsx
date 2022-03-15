@@ -16,6 +16,7 @@ const CSS_HANDLES = [
   'walletBtn',
   'gridText',
   'learnText',
+  'iconImages',
 ]
 
 export const WalletModal: React.FC = () => {
@@ -59,7 +60,11 @@ export const WalletModal: React.FC = () => {
                 >
                   {item.title}
                 </p>
-                <img alt="" src={item.image} />
+                <img
+                  className={`${handles.iconImages}`}
+                  alt=""
+                  src={item.image}
+                />
               </div>
             </div>
           ))}

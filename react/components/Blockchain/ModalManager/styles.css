@@ -5,8 +5,8 @@
 .closeIcon {
   position: absolute;
   box-sizing: content-box;
-  right: 0;
   top: 0;
+  margin-left: 814px;
   transform: translate(17px, -17px);
   background: #4f8dff;
   color: white;
@@ -25,8 +25,8 @@
 }
 .darkCloseIcon {
   position: absolute;
-  right: 0;
   top: 0;
+  left: 820px;
   transform: translate(15px, -15px);
   background: rgb(9, 9, 21);
   color: magenta;
@@ -51,6 +51,10 @@
   background-color: white;
   border-radius: 10px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -573px;
 }
 
 .darkModal {
