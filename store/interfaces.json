@@ -1,0 +1,9 @@
+{
+  "custom-wallet": {
+    "around": ["wallet-provider"],
+    "component": "Wallet"
+  },
+  "wallet-provider": {
+    "component": "WalletProvider"
+  }
+}
