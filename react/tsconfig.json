@@ -8,10 +8,7 @@
     "moduleResolution": "node",
     "target": "es2017",
     "allowSyntheticDefaultImports": true,
-    "plugins": [{ "name": "typescript-plugin-css-modules" }],
-    "paths": {
-      "@assets": ["./src/assets/*"]
-    }
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
   "typescript.disableAutomaticTypeAcquisition": true,
   "include": [

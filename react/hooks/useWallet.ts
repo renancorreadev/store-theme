@@ -30,7 +30,7 @@ const useWallet = () => {
         await activate(connector, async (error) => {
           if (error instanceof UnsupportedChainIdError) {
             console.log(error)
-            const network: any = config.unsupportedChainSetup[config.chainId]
+            const network = config.unsupportedChainSetup[config.chainId]
             const hasSetup = await switchChain(
               network ?? {
                 chainId: `0x${parseInt(config.chainId.toString()).toString(

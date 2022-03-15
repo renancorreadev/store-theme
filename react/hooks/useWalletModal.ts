@@ -1,6 +1,6 @@
 import { useWeb3React } from '@web3-react/core'
 import { useContext, useEffect } from 'react'
-import WalletModalContext from '../components/contexts/walletModalContext'
+import { WalletModalContext } from '../components/contexts/walletModalContext'
 
 export const useWalletModal = () => {
   const { deactivate, error: web3ReactError } = useWeb3React()

@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#secretext"
       // "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -16,6 +17,12 @@
     ]
   },
 
+  "flex-layout.row#secretext": {
+    "children": ["secret-text"],
+    "props": {
+      "className": "secretext"
+    }
+  },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {

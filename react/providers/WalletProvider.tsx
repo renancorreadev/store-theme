@@ -4,7 +4,7 @@ import { WalletModal } from '../components/Blockchain/WalletModal/WalletModal'
 import { ConfigContextProvider } from '../components/contexts/configContext'
 import { WalletConfig } from '../config/types'
 import defaultConfig from '../config'
-import WalletModalContext from '../components/contexts/walletModalContext'
+import {WalletModalContext} from '../components/contexts/walletModalContext'
 import ModalManager from '../components/Blockchain/ModalManager/ModalManager'
 
 interface WalletProviderProps {

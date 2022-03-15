@@ -37,3 +37,7 @@
     -webkit-filter: brightness(0.8);
   }
 }
+
+.address {
+  margin-left: 10px;
+}
