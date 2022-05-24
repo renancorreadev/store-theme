@@ -4,6 +4,7 @@
     "resolveJsonModule": true,
     "noEmitOnError": false,
     "lib": ["dom"],
+    "noImplicitReturns": false,
     "module": "esnext",
     "moduleResolution": "node",
     "target": "es2017",

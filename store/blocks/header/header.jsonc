@@ -72,10 +72,16 @@
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
-      "custom-wallet",
+      "connect#wallet-connect",
       "login",
       "minicart.v2"
     ]
+  },
+
+  "connect#wallet-connect": {
+    "props": {
+      "component": "wallet-connect"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {

@@ -1,12 +1,15 @@
 {
-  "custom-wallet": {
-    "around": ["wallet-provider"],
-    "component": "Wallet"
+  "store": {
+    "allowConditions": true,
+    "component": "*",
+    "around": ["storeWrapper"],
+    "before": ["header.full"],
+    "after": ["footer"]
   },
-  "wallet-provider": {
-    "component": "WalletProvider"
+  "storeWrapper": {
+    "component": "StoreWrapper"
   },
-  "secret-text": {
-    "component": "TextSecret"
+  "connect": {
+    "component": "Connection"
   }
 }
